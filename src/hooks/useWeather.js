@@ -18,7 +18,6 @@ export default function useWeatherData() {
 
   const { selectedLocation } = useContext(LocationContext);
 
-  console.log(selectedLocation);
 
   const [loading, setLoading] = useState({
     state: false,

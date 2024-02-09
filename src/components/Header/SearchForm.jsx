@@ -11,7 +11,7 @@ export default function SearchForm() {
   function handleSearch(e) {
     e.preventDefault();
     const fetchedLocation = getLocationByName(text);
-    console.log(fetchedLocation);
+
     setSelectedLocation({ ...fetchedLocation });
   }
 
